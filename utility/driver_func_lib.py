@@ -19,10 +19,14 @@ class DriverFuncLib:
 		WebDriverWait(self.driver, timeout).until(EC.presence_of_element_located(locator))
 
 	def assert_and_click(self, locator):
-		self.wait_for_element(locator)
-		logging.info("# Click on element %s" % locator)
-		ele = self.driver.find_element_by_xpath(locator)
-		ele.click()
+		# self.wait_for_element(locator)
+		logging.info("# Click on Button")
+		ele = self.driver.find_element(*locator)
+		try:
+			ele.click()
+			return True
+		except NoSuchElementException:
+			return False
 
 	def is_element_present(self, locator):
 		try:
