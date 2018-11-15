@@ -12,4 +12,4 @@ class LoginPage_OR(BasePage):
 
         self.email_field = (By.XPATH, "//input[@id='email']")
         self.password_field = (By.XPATH, "//input[@id='pass']")
-        self.login_button = (By.XPATH, "//label[@id='loginbutton']")
+        # self.login_button = "//label[@id='loginbutton']"

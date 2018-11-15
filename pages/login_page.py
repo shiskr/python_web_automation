@@ -17,7 +17,7 @@ class LoginPage(LoginPage_OR):
 		#
 		# self.email_field = "//input[@id='email']"
 		# self.password_field = "//input[@id='pass']"
-		# self.login_button = "//label[@id='loginbutton']"
+		self.login_button = "//label[@id='loginbutton']"
 
 	def verify_facebook_login_page(self):
 		logging.info('## Verifying home page ##')
