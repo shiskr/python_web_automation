@@ -1,4 +1,5 @@
 from utility.driver_func_lib import DriverFuncLib
+from selenium.webdriver.common.by import By
 
 
 class BasePage_OR():

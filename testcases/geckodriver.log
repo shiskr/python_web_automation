@@ -1,0 +1,143 @@
+1542709778810	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/zz/ld_wvw017m3b6l9n6ns3kp0nzydnbl/T/rust_mozprofile.r74UTSDqvihF"
+2018-11-20 15:59:40.535 plugin-container[69982:18768651] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8203, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-11-20 15:59:40.894 plugin-container[69985:18768692] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1542709781197	Marionette	INFO	Listening on port 62064
+1542709781244	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542709781290	Marionette	DEBUG	[4294967297] Frame script loaded
+1542709781308	Marionette	DEBUG	[4294967297] Frame script registered
+2018-11-20 15:59:41.704 plugin-container[69987:18768816] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x813f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-11-20 16:00:09.922 plugin-container[70043:18769458] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x853f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1542709871124	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/zz/ld_wvw017m3b6l9n6ns3kp0nzydnbl/T/rust_mozprofile.5ypOkqvbDXVG"
+2018-11-20 16:01:12.631 plugin-container[70387:18771502] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7a43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-11-20 16:01:12.902 plugin-container[70388:18771529] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x783f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1542709873154	Marionette	INFO	Listening on port 63940
+1542709873228	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542709873268	Marionette	DEBUG	[4294967297] Frame script loaded
+1542709873269	Marionette	DEBUG	[4294967297] Frame script registered
+1542709873289	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+2018-11-20 16:01:13.605 plugin-container[70394:18771651] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x793f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1542709873950	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1542709874944	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.facebook.com/
+1542709875741	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.facebook.com/
+1542709876068	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.facebook.com/
+1542709877066	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://www.facebook.com/
+1542709877075	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.facebook.com/
+1542709877634	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967306
+1542709877635	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967301
+1542709877635	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967303
+1542709878055	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.facebook.com/
+1542709879780	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967323
+1542709879780	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967327
+1542709880623	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967325
+1542709881336	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.facebook.com/
+1542709881645	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1542709882006	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.facebook.com/
+1542709883146	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://www.facebook.com/
+1542709883152	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.facebook.com/
+1542709883394	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.facebook.com/?stype=lo&jlou=Afd6lR8eqtn3tLtxTmyIcjdTf-cOTseE--dRNcB466BIzI-u7RnS33B0nXj75N9hzrgdHZQE6YuDMhxzH1pDn575AFhWcDDHVq-PSP_Hdwmlrw&smuh=48498&lh=Ac-35-qMH-j6aAuj
+1542709883400	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967309
+1542709883400	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967310
+1542709883401	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967311
+1542709883401	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967312
+1542709883992	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.facebook.com/?stype=lo&jlou=Afd6lR8eqtn3tLtxTmyIcjdTf-cOTseE--dRNcB466BIzI-u7RnS33B0nXj75N9hzrgdHZQE6YuDMhxzH1pDn575AFhWcDDHVq-PSP_Hdwmlrw&smuh=48498&lh=Ac-35-qMH-j6aAuj
+1542710049370	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--no-sandbox" "--disable-notifications" "-foreground" "-no-remote" "-profile" "/var/folders/zz/ld_wvw017m3b6l9n6ns3kp0nzydnbl/T/rust_mozprofile.BAR9PdNdNF1s"
+2018-11-20 16:04:10.879 plugin-container[71472:18778256] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x753f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-11-20 16:04:11.143 plugin-container[71473:18778285] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8303, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1542710051337	Marionette	INFO	Listening on port 51028
+1542710051380	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542710051419	Marionette	DEBUG	[4294967297] Frame script loaded
+1542710051424	Marionette	DEBUG	[4294967297] Frame script registered
+1542710051449	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+2018-11-20 16:04:11.845 plugin-container[71474:18778397] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1542710052036	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1542710052942	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.facebook.com/
+1542710053756	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.facebook.com/
+1542710054049	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.facebook.com/
+1542710055795	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://www.facebook.com/
+1542710055803	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.facebook.com/
+1542710056271	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967306
+1542710056271	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967301
+1542710056271	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967303
+1542710056854	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.facebook.com/
+1542710058384	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967323
+1542710058387	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967327
+1542710059460	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967325
+1542710059562	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.facebook.com/
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+1542710322076	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/zz/ld_wvw017m3b6l9n6ns3kp0nzydnbl/T/rust_mozprofile.KlIWhYUzoI3e"
+2018-11-20 16:08:43.574 plugin-container[73174:18790488] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x823f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-11-20 16:08:43.864 plugin-container[73175:18790515] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1542710324126	Marionette	INFO	Listening on port 56497
+1542710324207	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542710324253	Marionette	DEBUG	[4294967297] Frame script loaded
+1542710324254	Marionette	DEBUG	[4294967297] Frame script registered
+1542710324327	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+2018-11-20 16:08:44.537 plugin-container[73176:18790630] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7403, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1542710324850	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1542710325694	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.facebook.com/
+1542710326588	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.facebook.com/
+1542710326904	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.facebook.com/
+1542710328805	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://www.facebook.com/
+1542710328812	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.facebook.com/
+1542710329287	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967306
+1542710329288	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967301
+1542710329288	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967303
+1542710329747	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.facebook.com/
+1542710331253	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967323
+1542710331261	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967327
+1542710332011	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967325
+1542710332705	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.facebook.com/
+1542710333032	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1542710333274	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.facebook.com/
+1542710334465	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://www.facebook.com/
+1542710334472	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.facebook.com/
+1542710334757	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.facebook.com/?stype=lo&jlou=AfcLWOuOrzy1y1YUK8Ab00Bf9-hXJAR0FrrnsNa2MMp2xV6KK8j9_ltyJbWZEd3DqYGF6jM0zT9ZTcIWfAq-4PBNdm6lSfRUWnkxb7OL_W3HhA&smuh=48498&lh=Ac8R5pj4vrjjq21m
+1542710334765	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967309
+1542710334765	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967310
+1542710334766	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967311
+1542710334766	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967312
+1542710335325	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.facebook.com/?stype=lo&jlou=AfcLWOuOrzy1y1YUK8Ab00Bf9-hXJAR0FrrnsNa2MMp2xV6KK8j9_ltyJbWZEd3DqYGF6jM0zT9ZTcIWfAq-4PBNdm6lSfRUWnkxb7OL_W3HhA&smuh=48498&lh=Ac8R5pj4vrjjq21m
+2018-11-20 16:09:00.245 plugin-container[73199:18791382] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8743, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-11-20 16:09:06.525 plugin-container[73223:18791665] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x873f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+1542710634081	Marionette	INFO	Stopped listening on port 62064
+1542710636174	Marionette	INFO	Stopped listening on port 63940
+1542710638692	Marionette	INFO	Stopped listening on port 51028
+1542710644949	Marionette	INFO	Stopped listening on port 56497

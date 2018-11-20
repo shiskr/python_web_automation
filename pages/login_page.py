@@ -1,11 +1,12 @@
 import logging
-
 from pages_or.login_page_or import LoginPage_OR
 from utility.driver_func_lib import DriverFuncLib
 
+logging.basicConfig(format='%(asctime)s - %(levelname)s: %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p',
+                    level=logging.INFO)
+
 
 class LoginPage(LoginPage_OR):
-
 	def __init__(self, driver):
 		LoginPage_OR.__init__(self, driver)
 		self.driver = driver
@@ -31,6 +32,8 @@ class LoginPage(LoginPage_OR):
 	def click_login(self):
 		logging.info('## Clicking on Login Button ##')
 		self.driver_func_lib.assert_and_click(self.login_button)
+		# return HomePage(self.driver)
+		return HomePage(self.driver)
 
 	def enter_email(self, text):
 		logging.info('## Entering Email Address ##')
@@ -39,3 +42,6 @@ class LoginPage(LoginPage_OR):
 	def enter_password(self, text):
 		logging.info('## Entering Password ##')
 		self.driver_func_lib.enter_text_textbox(self.password_field, text)
+
+
+from pages.home_page import HomePage
