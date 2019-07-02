@@ -3,6 +3,8 @@ import logging
 from selenium import webdriver
 import sys
 from assets.constants import *
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s: %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p',
                     level=logging.INFO)
@@ -21,14 +23,14 @@ class DriverManager(unittest.TestCase):
             # chrome_options.add_argument("--disable-setuid-sandbox")
             chrome_options.add_argument("--disable-notifications")
             self.driver = webdriver.Chrome(
-                executable_path="/Users/kumar.shishir/PycharmProjects/automationsample/assets/chromedriver",
+                executable_path=ChromeDriverManager().install(),
                 chrome_options=chrome_options)
 
         elif browser is "firefox":
             browser_profile = webdriver.FirefoxProfile()
             browser_profile.set_preference("dom.webnotifications.enabled", False)
             self.driver = webdriver.Firefox(
-                executable_path="/Users/kumar.shishir/PycharmProjects/automationsample/assets/geckodriver",
+                executable_path=GeckoDriverManager().install(),
                 firefox_profile=browser_profile
             )
         elif browser is "safari":
