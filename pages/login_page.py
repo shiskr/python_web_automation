@@ -26,13 +26,11 @@ class LoginPage(LoginPage_OR):
 		actual_title = self.driver.title
 		logging.info('# Actual Title: %s' % actual_title)
 		assert self.title in actual_title, "Actual title %s, should be same as %s" % (actual_title, self.title)
-		# print('True')
 		return self
 
 	def click_login(self):
 		logging.info('## Clicking on Login Button ##')
 		self.driver_func_lib.assert_and_click(self.login_button)
-		# return HomePage(self.driver)
 		return HomePage(self.driver)
 
 	def enter_email(self, text):

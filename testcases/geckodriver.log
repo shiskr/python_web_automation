@@ -141,3 +141,15 @@ console.error: BroadcastService:
 1542710636174	Marionette	INFO	Stopped listening on port 63940
 1542710638692	Marionette	INFO	Stopped listening on port 51028
 1542710644949	Marionette	INFO	Stopped listening on port 56497
+1544644840639	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/zz/ld_wvw017m3b6l9n6ns3kp0nzydnbl/T/rust_mozprofile.qFARypu6pI7Q"
+1544644841223	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1544644841224	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1544644842965	Marionette	INFO	Listening on port 60117
+1544644843018	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'GetGraphicsResetStatus'.
+Can't find symbol 'GetGraphicsResetStatus'.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1544644940637	Marionette	INFO	Stopped listening on port 60117
