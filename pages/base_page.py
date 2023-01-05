@@ -11,10 +11,3 @@ class BasePage(BasePage_OR):
         BasePage_OR.__init__(self, driver)
         self.driver = driver
         self.driver_func_lib = DriverFuncLib(self.driver)
-
-    # def click_logout(self):
-    #     logging.info('## Clicking on Logout Button ##')
-    #     self.driver_func_lib.assert_and_click(self.navigation_menu)
-    #     self.driver_func_lib.assert_and_click(self.logout_button)
-    #     login_page = LoginPage(self.driver)
-    #     return login_page

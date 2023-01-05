@@ -1,7 +1,7 @@
 import unittest
 
 testmodules = [
-    'test.login_test',
+    'test.test_login',
     'test.new_test',
     ]
 
