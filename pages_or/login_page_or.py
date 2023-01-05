@@ -6,6 +6,6 @@ class LoginPage_OR(BasePage):
     def __init__(self, driver):
         self.driver = driver
 
-        self.email_field = (By.XPATH, "//input[@id='email']")
-        self.password_field = (By.XPATH, "//input[@id='pass']")
-        self.login_button = (By.XPATH, "//label[@id='loginbutton']")
+        self.email_field = (By.ID, "email")
+        self.password_field = (By.ID, "password")
+        self.login_button = (By.ID, "loginButton")

@@ -1,6 +1,6 @@
 from selenium.webdriver.common.alert import Alert
 import logging
-from pages.login_page import LoginPage
+import pages.home_page # do not use 'from' when importing pages
 from utility.drivermanager import DriverManager
 from assets.constants import *
 from selenium.webdriver.support.ui import WebDriverWait
@@ -13,16 +13,10 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s: %(message)s', datefmt='
 class TestFacebookLogin(DriverManager):
 
     def test_login(self):
-        login_page = LoginPage(self.driver)
-        login_page.verify_facebook_login_page()
+        home_page = pages.home_page.HomePage(self.driver)
+        home_page.click_dismiss_btn()
+        home_page.verify_welcome_page()
+        login_page = home_page.click_login_button()
         login_page.enter_email(email)
         login_page.enter_password(password)
-        home_page = login_page.click_login()
-        # try:
-        #     Alert(self.driver).accept()
-        #     # Alert(driver).dismiss()
-        #
-        # except:
-        #     print("no alert")
-        home_page.click_navigation_menu()
-        login_page = home_page.click_logout_button()
+        login_page.click_login()

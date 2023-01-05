@@ -15,11 +15,11 @@ class DriverFuncLib:
 		self.driver = driver
 
 	def wait_for_element(self, locator, timeout=20):
-		logging.info("# Wait for element to appear... %s" % locator)
+		logging.info("# Wait for element to appear... {0}".format(locator))
 		WebDriverWait(self.driver, timeout).until(EC.presence_of_element_located(locator))
 
-	def assert_and_click(self, locator):
-		# self.wait_for_element(locator)
+	def assert_and_click(self, locator, timeout=20):
+		self.wait_for_element(locator, timeout)
 		logging.info("# Click on Button")
 		ele = self.driver.find_element(*locator)
 		try:
@@ -31,10 +31,10 @@ class DriverFuncLib:
 	def is_element_present(self, locator):
 		try:
 			self.driver.find_element(*locator)
-			logging.info("# Element '%s' is present." % locator)
+			logging.info("# Element '{0}' is present.".format(locator))
 			return True
 		except NoSuchElementException:
-			logging.info("# Element '%s' is not present." % locator)
+			logging.info("# Element '{0}' is not present.".format(locator))
 			return False
 
 	def assert_element_present(self, locator):
@@ -46,11 +46,11 @@ class DriverFuncLib:
 		assert not self.is_element_present(locator), "Element '%s' should not be present." % locator
 
 	def wait_for_element_visible(self, locator, timeout=20):
-		logging.info("# Wait for element to appear... %s" % locator)
+		logging.info("# Wait for element to appear... {0}".format(locator))
 		WebDriverWait(self.driver, timeout).until(EC.visibility_of_element_located((By.XPATH, locator)))
 
 	def wait_for_element_invisible(self, locator, timeout=20):
-		logging.info("# Wait for element to appear... %s" % locator)
+		logging.info("# Wait for element to appear... {0}".format(locator))
 		WebDriverWait(self.driver, timeout).until(EC.invisibility_of_element_located((By.XPATH, locator)))
 
 	def is_element_visible(self, locator):
@@ -58,7 +58,7 @@ class DriverFuncLib:
 			ele = self.driver.find_element(*locator)
 			return ele.is_displayed()
 		except NoSuchElementException:
-			logging.info("# Element '%s' is not present." % locator)
+			logging.info("# Element '{0}' is not present.".format(locator))
 		return False
 
 	def assert_element_visibility(self, locator, is_visible=True):
