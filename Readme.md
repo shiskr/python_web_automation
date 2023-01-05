@@ -23,5 +23,5 @@ Python Selenium Web Automation Framework requires [Python](https://www.python.or
 Install the dependencies:
 
 ```sh
-python3 insall -r requirements.txt
+python3 install -r requirements.txt
 ```
