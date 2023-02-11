@@ -11,10 +11,11 @@
     - Chrome
     - Firefox
     - Safari
-- Selenium 4.6 self manages driver browsers
+- Selenium 4.7.2 self manages driver browsers
 - Request library to call API requests
 - Logging info for each action
 - Suite(Test Runner) including all tests
+- HTML Report
 
 ## Installation
 
@@ -25,3 +26,7 @@ Install the dependencies:
 ```sh
 python3 insall -r requirements.txt
 ```
+
+
+## Coming Up:
+- various kind of actions that can be performed on web app
